@@ -1,0 +1,95 @@
+/* div {
+    width:500px;
+    height:500px;
+    background-color: orangered;
+    padding: 50px;
+    margin: 50px;
+    padding-left: 40px;
+    border: 10px solid greenyellow;
+} */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin:0;
+    border:0;
+}
+
+/* div {
+    width: 100px;
+    height: 100px; 
+} */
+
+.header {
+    background-color: rgb(255, 182, 193);
+    width: 100vw;
+    height: 100px;
+        font-family: "Margarine", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        color:rgb(255, 102, 0) ;
+    font-size: 65px;
+    line-height: 100px;
+    text-align:center;
+}
+
+.sidebar {
+    background-image: linear-gradient(rgb(255, 182, 193), rgb(255, 102, 0));
+    position: absolute;
+    width: 30vw;
+    height: 100vh;
+    right:0;
+
+}
+
+.main {
+    background-image: linear-gradient(rgb(255, 182, 193), rgb(255, 102, 0));
+    width: 100vw;
+    left:0;
+    display: flex; 
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+
+}
+
+
+/* .name { */
+      /* font-family: "Playwrite IT Moderna", serif; */
+      /* font-size: 30px; */
+      /* font-weight: <weight>; */
+      /* font-style: normal; */
+       /* margin-bottom: 20px ; */
+
+
+.desc {
+    font-family: "Margarine", sans-serif;
+     font-weight: 400;
+     font-style: normal;
+    font-size: 20px;
+    text-align:center;
+    color: rgb(250, 95, 119);
+    stroke: aliceblue;
+
+}
+div {
+    display:inline-block;
+    vertical-align: top;
+    padding: 25px; 
+
+}
+.image {
+    width: 350px;
+    height: 250px;
+    margin-top: 20px;
+    transition: transform 0.3s ease, opacity 0.3s ease, box-shadow 0.3s ease; /* Added transition for box-shadow */
+}
+.image:hover {
+    transform: scale(1.1); /* Scale effect on hover */
+    opacity: 0.9; /* Slightly fade on hover */
+    box-shadow: 0 0 15px 5px rgba(255, 102, 0, 0.7); /* Glowing orange effect */
+}
+
+
